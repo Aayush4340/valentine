@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(145, 225, 221);
+    background-color: #EEDDC8;
+}
+.main{
+    margin-top: 3rem;
+}
+.gif-container img{
+    width: 15rem;
+}
+.text-container p{
+    font-size: 4rem;
+    color: rgb(225, 91, 198);
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    padding: .5rem 1rem;
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+    margin: 0 2rem;
+    color: #fff;
+    font-weight: 700;
+    transition: .2s;
+}
+.btn:hover{
+    transform: scale(1.05);
+}
+
+#yes-btn{
+   background-color: rgb(59, 219, 107);
+}
+#no-btn{
+    background-color: red; 
+
+}
